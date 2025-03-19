@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:new_project/main.dart';
+=======
+import 'package:project02/main.dart';
+>>>>>>> ddfcfca (code uploading with signup and signin functionality)
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

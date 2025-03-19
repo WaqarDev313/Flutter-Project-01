@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import './homepage.dart';
 
+=======
+import 'package:project02/calculator.dart';
+import 'package:project02/home.dart';
+import 'package:flutter/material.dart';
+import 'package:project02/sharedPreference.dart';
+>>>>>>> ddfcfca (code uploading with signup and signin functionality)
 void main() {
   runApp(const MyApp());
 }
@@ -12,6 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
       title: 'Flutter Demo',
       theme: ThemeData(
         
@@ -104,6 +112,35 @@ class _MyHomePageState extends State<MyHomePage> {
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
+=======
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        // This is the theme of your application.
+        //
+        // TRY THIS: Try running your application with "flutter run". You'll see
+        // the application has a purple toolbar. Then, without quitting the app,
+        // try changing the seedColor in the colorScheme below to Colors.green
+        // and then invoke "hot reload" (save your changes or press the "hot
+        // reload" button in a Flutter-supported IDE, or press "r" if you used
+        // the command line to start the app).
+        //
+        // Notice that the counter didn't reset back to zero; the application
+        // state is not lost during the reload. To reset the state, use hot
+        // restart instead.
+        //
+        // This works for code too, not just values: Most code changes can be
+        // tested with just a hot reload.
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      ),
+      //home: home(),
+      initialRoute:'home',
+      routes: {
+        'home':(context)=>home(),
+        //'calculator': (context)=>calculator(),
+
+      },
+>>>>>>> ddfcfca (code uploading with signup and signin functionality)
     );
   }
 }

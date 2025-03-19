@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="new_project"
+=======
+        android:label="project02"
+>>>>>>> ddfcfca (code uploading with signup and signin functionality)
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

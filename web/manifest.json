@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "new_project",
     "short_name": "new_project",
+=======
+    "name": "project02",
+    "short_name": "project02",
+>>>>>>> ddfcfca (code uploading with signup and signin functionality)
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

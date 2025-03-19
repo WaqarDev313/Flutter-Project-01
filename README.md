@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # new_project
+=======
+# project02
+>>>>>>> ddfcfca (code uploading with signup and signin functionality)
 
 A new Flutter project.
 
