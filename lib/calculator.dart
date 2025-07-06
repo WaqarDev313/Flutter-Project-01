@@ -7,6 +7,8 @@ class Calculator extends StatefulWidget {
   State<Calculator> createState() => _CalculatorState();
 }
 
+// calculator screen
+
 class _CalculatorState extends State<Calculator> {
   TextEditingController numController = TextEditingController();
   TextEditingController num2Controller = TextEditingController();
